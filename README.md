@@ -29,7 +29,7 @@ root     19456  3552 10 20:43 pts/1    00:00:05 /bin/bash ./kstack_threads.sh
 
 
 
-The script will continue to collect until stopped.
+The script will continue to run and collect kernel stacks when splunkd threads exceed 1000 until stopped.
 
 
 to stop the script:
