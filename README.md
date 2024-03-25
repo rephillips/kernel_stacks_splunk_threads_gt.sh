@@ -22,6 +22,7 @@ nohup ./kstack_threads.sh &
 you can now exit the terminal session and log back in and confirm the script is still running: 
 
 ps -ef | grep kstack | grep -v color
+
 root      7513 31041  0 19:55 pts/0    00:00:00 /bin/bash ./kstack_threads.sh
 
 
