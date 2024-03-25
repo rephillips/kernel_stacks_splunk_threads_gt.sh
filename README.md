@@ -2,7 +2,8 @@
 collect kernel stacks when splunkd threads greater than x (defaults to 1000)
 
 
-1.) in the /tmp directory of your target Splunk instance, create the script located here: [https://github.com/rephillips/kernel_stacks.sh/blob/main/kstacks_all.sh](https://github.com/rephillips/kernel_stacks_splunk_threads_gt.sh/blob/main/kstack_threads.sh)
+1.) in the /tmp directory of your target Splunk instance, create the script located here: 
+https://github.com/rephillips/kernel_stacks_splunk_threads_gt.sh/blob/main/kstack_threads.sh
 
 vi kstack_threads.sh
 
