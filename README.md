@@ -24,6 +24,7 @@ you can now exit the terminal session and log back in and confirm the script is 
 ps -ef | grep kstack | grep -v color
 
 [splunker@idx1 ~]$ ps -ef | grep kstack
+
 root     19456  3552 10 20:43 pts/1    00:00:05 /bin/bash ./kstack_threads.sh
 
 
