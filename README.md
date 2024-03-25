@@ -23,7 +23,9 @@ you can now exit the terminal session and log back in and confirm the script is 
 
 ps -ef | grep kstack | grep -v color
 
-root      7513 31041  0 19:55 pts/0    00:00:00 /bin/bash ./kstack_threads.sh
+[splunker@idx1 ~]$ ps -ef | grep kstack
+root     19456  3552 10 20:43 pts/1    00:00:05 /bin/bash ./kstack_threads.sh
+
 
 
 The script will continue to collect until stopped.
@@ -31,3 +33,6 @@ The script will continue to collect until stopped.
 
 to stop the script:
 kill -9 pid
+
+ie: 
+kill -9 19456
