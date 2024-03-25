@@ -30,4 +30,4 @@ The script will continue to collect until stopped.
 
 
 to stop the script:
-kill -9 <pid>
+kill -9 pid
